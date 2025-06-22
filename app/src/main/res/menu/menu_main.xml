@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_az"
+        android:title="Сортировать A–Z" />
+    <item
+        android:id="@+id/sort_za"
+        android:title="Сортировать Z–A" />
+    <item
+        android:id="@+id/delete_all"
+        android:title="Удалить все контакты" />
+
+    <item
+        android:id="@+id/menu_filter"
+        android:title="Фильтр по категории"
+        android:showAsAction="never">
+        <menu>
+            <item android:id="@+id/filter_all" android:title="Все" />
+            <item android:id="@+id/filter_work" android:title="Работа" />
+            <item android:id="@+id/filter_family" android:title="Семья" />
+            <item android:id="@+id/filter_friends" android:title="Друзья" />
+        </menu>
+    </item>
+</menu>
